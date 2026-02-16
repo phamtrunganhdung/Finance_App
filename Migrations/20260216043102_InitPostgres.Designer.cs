@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FinanceApp.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260215081226_SeedDefaultCategories")]
-    partial class SeedDefaultCategories
+    [Migration("20260216043102_InitPostgres")]
+    partial class InitPostgres
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
